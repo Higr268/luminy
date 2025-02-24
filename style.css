@@ -174,11 +174,36 @@ section h4{
 }
 
 .msg-form form {
-    max-width: 1100px;
+    width: 1100px;
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 .msg-form {
-    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    margin: 50px;
+    gap: 50px;
+
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background: none;
+    border: 2px solid #333;
+
+}
+
+textarea {
+    border: none;
+    outline: none;
 }
