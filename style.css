@@ -141,6 +141,114 @@ footer a {
 
 }
 
+/* contact */
+.background{
+    background: var(--dark-color);
+    color: white;
+}
+
+section h4{
+    font-size: 1.5rem;
+}
+
+.msg-form form {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.msg-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 50px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type="submit"] {
+    background: none;
+    border: 2px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    height: 200px;
+    padding-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* about */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.services div {
+    display: flex;
+    max-width: 1100px;
+}
+
+.services h4{
+    padding: 30px;
+}
+
+.services div div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team h4 {
+    padding: 30px;
+}
+
+.team-container {
+    display: flex;
+    max-width: 1100px;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.team-item img {
+    border-radius: 11px;
+    
+}
+
+h6 {
+    font-size: 1rem;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .header .header-flex {
@@ -162,48 +270,4 @@ footer a {
     footer .footer-flex {
         text-align: center;
     }
-}
-
-.background{
-    background: var(--dark-color);
-    color: white;
-}
-
-section h4{
-    font-size: 1.5rem;
-}
-
-.msg-form form {
-    width: 1100px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.msg-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center;
-    margin: 50px;
-    gap: 50px;
-
-}
-
-input {
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #333;
-    padding: 10px;
-}
-
-input[type="submit"] {
-    background: none;
-    border: 2px solid #333;
-
-}
-
-textarea {
-    border: none;
-    outline: none;
 }
