@@ -102,7 +102,6 @@ img {
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1100px;
     gap: 20px;
 }
 
@@ -150,7 +149,9 @@ footer a {
 section h4{
     font-size: 1.5rem;
 }
-
+form{
+    max-width: 100%;
+}
 .msg-form form {
     width: 1100px;
     display: flex;
@@ -269,5 +270,19 @@ h6 {
     }
     footer .footer-flex {
         text-align: center;
+    }
+
+    .services div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services div div {
+        margin: 0 35px;
+    }
+
+    .team-container {
+        flex-direction: column;
+        margin: 0 35px;
     }
 }
